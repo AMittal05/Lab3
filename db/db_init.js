@@ -31,6 +31,15 @@ db.execute(insert_baked_goods_table_sql, ["Cupcake", "24", "Cupcakes are tasty",
 
 db.execute(insert_baked_goods_table_sql, ["Crepe", "10", "Crepes are tasty", "2.00", "Insert Ingredients", "Insert Link"]);
 
+db.execute(insert_baked_goods_table_sql, ["Cake", "2", "Cakes are tasty", "15.00", "Insert Ingredients", "Insert Link"]);
+
+db.execute(insert_baked_goods_table_sql, ["Bread", "5", "Bread is tasty", "4.00", "Insert Ingredients", "Insert Link"]);
+
+db.execute(insert_baked_goods_table_sql, ["Scone", "12", "Scones are tasty", "3.00", "Insert Ingredients", "Insert Link"]);
+
+db.execute(insert_baked_goods_table_sql, ["Cookies", "30", "Cookies are tasty", "1.50", "Insert Ingredients", "Insert Link"]);
+
+
 /**** Read the sample items inserted ****/
 
 const read_baked_Good_table_sql = "SELECT * FROM bakedGood";
